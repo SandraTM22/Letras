@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    min-height: 100vh;
+    font-size: 120px;
+    background:linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
+
+  }
+  
+h1{
+    background-image: url("https://image.shutterstock.com/image-illustration/abstract-lowpoly-background-triangulated-texture-260nw-1787683859.jpg");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    /* especifica el  color del trazo de los caracteres de texto */
+  -webkit-text-stroke-color: hsl(0, 10%, 90%); 
+  /* especifica la anchura del trazo de texto. */
+  -webkit-text-stroke-width: 1px; 
+}

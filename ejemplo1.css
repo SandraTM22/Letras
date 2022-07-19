@@ -1,0 +1,21 @@
+.ej_1{
+    background:linear-gradient(to right, hsl(267, 69%, 51%), #516395);
+    height: 50vh;
+    padding: 9em;
+    justify-content: center      
+}
+
+.texto{
+    font-size: 8em;
+    text-transform:uppercase;
+    text-align: center;
+    color: transparent;   
+  /* especifica la anchura del trazo de texto. */
+  -webkit-text-stroke-width: 2px; 
+  /* especifica el  color del trazo de los caracteres de texto */
+  -webkit-text-stroke-color: hsl(0, 10%, 90%);    
+}
+
+.sombra{
+    text-shadow: 0.05em 0.05em hsl(154, 100%, 68%) ;
+}

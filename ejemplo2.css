@@ -1,0 +1,16 @@
+.ej_2{
+    background: linear-gradient(to left, rgb(221, 94, 137), rgb(247, 187, 151));
+    height: 50vh;
+    padding: 9em;
+    justify-content: center;
+}
+
+.texto{
+    font-size: 8em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: hsl(355, 68%, 72%);
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+}
